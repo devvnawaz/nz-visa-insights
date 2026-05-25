@@ -644,8 +644,7 @@ function Dashboard() {
       </div>
 
       <footer className="border-t bg-secondary/30 py-6 text-center text-xs text-muted-foreground">
-        Built from “{sourceInfo.document}” · {sourceInfo.organisation} ·{" "}
-        {sourceInfo.preparedOn}
+        Data-driven trends for Bangladeshi students applying to New Zealand | Vibecoded with Loveable
       </footer>
     </main>
   );
