@@ -133,7 +133,14 @@ function Dashboard() {
           </h1>
           <p className="mt-4 max-w-2xl text-base text-white/85 sm:text-lg">
             {sourceInfo.note.split("—")[0]}A simple dashboard showing application,
-            approval, decline, and grant rate trends — built directly from the INZ statistics PDF.
+            approval, decline, and grant rate trends — built directly from the <a
+              href="/statistics-student-applications-decided.pdf"
+              className="font-medium text-primary underline underline-offset-2 hover:text-primary-glow"
+              target="_blank"
+              rel="noreferrer"
+            >
+              INZ statistics PDF
+            </a>.
           </p>
 
           <div className="mt-8 grid gap-3 sm:grid-cols-3">
