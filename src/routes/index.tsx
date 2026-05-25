@@ -135,7 +135,7 @@ function Dashboard() {
             {sourceInfo.note.split("—")[0]}A simple dashboard showing application,
             approval, decline, and grant rate trends — built directly from the <a
               href="/statistics-student-applications-decided.pdf"
-              className="font-medium text-primary underline underline-offset-2 hover:text-primary-glow"
+              className="font-medium text-primary underline underline-offset-2"
               target="_blank"
               rel="noreferrer"
             >
