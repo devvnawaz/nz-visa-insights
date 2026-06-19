@@ -650,7 +650,9 @@ function Dashboard() {
       </div>
 
       <footer className="border-t bg-secondary/30 py-6 text-center text-xs text-muted-foreground">
-        Data-driven trends for Bangladeshi students applying to New Zealand | Vibecoded with Loveable
+        Data-driven trends for Bangladeshi students applying to New Zealand | developed by <a href="https://www.linkedin.com/in/devnawaz/" target="_blank" rel="noopener noreferrer">
+      devnawaz
+    </a>
       </footer>
     </main>
   );
